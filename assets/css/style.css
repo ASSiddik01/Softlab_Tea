@@ -18,6 +18,9 @@
     padding:0 10px
 }
 */
+ul{
+    list-style: none;
+}
 
 #header_top {
     background-color: #88b44e;
@@ -79,4 +82,26 @@ a {
 section#service {
     position: relative;
     top: -70px;
+}
+/* .single_about img {
+    height: 100px;
+    width: 100px;
+} */
+
+.about_img {
+    height: 90px;
+    width: 90px;
+}
+
+.about_img img {
+    height: 67px;
+    width: 56px;
+}
+
+.theme_btn{
+    background-color: #1b2b06;
+}
+
+.theme_btn:hover{
+    background-color: #88b44e;
 }
