@@ -22,6 +22,9 @@
 #header_top {
     background-color: #88b44e;
 }
+.theme_bg {
+    background-color: #88b44e;
+}
 
 .top_nav div {
     padding: 0 10px;
@@ -49,4 +52,31 @@ a {
 }
 .opacity{
     opacity: .7;
+}
+
+.header {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 25px;
+    text-align: left;
+}
+.header span {
+    display: block;
+}
+.item_1 {
+    background-color: #f5f8f2;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.item_2 {
+    background-color: #252c30;
+}
+.item_3 {
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+section#service {
+    position: relative;
+    top: -70px;
 }
