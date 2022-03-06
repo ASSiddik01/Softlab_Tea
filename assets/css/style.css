@@ -1,0 +1,33 @@
+#searchBox, .top-search-ico-close {
+    display: none;
+}
+
+/* #header_top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header_top ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#header_top ul li {
+    float: right;
+    padding:0 10px
+}
+*/
+
+#header_top {
+    background-color: #88b44e;
+}
+
+.top_nav div {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
