@@ -31,3 +31,22 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.theme_color{
+    color: #88b44e;
+}
+
+#banner h1 {
+    font-size: 75px;
+}
+/* 
+#banner{
+    background-image: url("/assets/images/Untitled-1.jpg");
+} */
+
+.slider_bg_color{
+    background-color: #000;
+}
+.opacity{
+    opacity: .7;
+}
