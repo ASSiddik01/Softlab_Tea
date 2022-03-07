@@ -352,3 +352,13 @@ abbr.required {
 body{
     overflow-x: hidden;
 }
+
+.mainmenu {
+    background-color: #000000bf;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
