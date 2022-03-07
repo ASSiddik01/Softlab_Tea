@@ -138,3 +138,7 @@ section#service {
     box-shadow: none !important;
     transition: all .8s;
 }
+
+#blogs {
+    background-color: #f5f8f2;
+}
