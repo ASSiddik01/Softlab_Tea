@@ -17,9 +17,9 @@
 
 <body>
     <!-- Header Start -->
-    <header id="header">
-        <!-- Top Header -->
-        <section class="pt-3" id="header_top">
+    
+    <!-- <header id="header">
+        <section class="pt-3 position-relative" id="header_top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -69,9 +69,9 @@
                 </div>
             </div>
         </section>
-        <!-- Navbar -->
+        
         <section id="nav_banner">
-            <nav class="navbar navbar-expand-lg navbar-light nav_banner">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top nav_banner">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="assets/images/logonew.png" alt="">
@@ -103,55 +103,53 @@
                 </div>
             </nav>
         </section>
-    </header>
+    </header> -->
+
+    <header>
+        <!-- Navbar Area -->
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+          <div class="container">
+            <a class="navbar-brand site_title" href="#">
+              <img src="assets/images/logonew.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#feature">Features</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#price">Pricing</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Banner div -->
+        <div class="banner_section banner_img">
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-12 text-center">
+                <div class="banner_info">
+                  <h1 class="fw-bold m-4">Ya! Enjoy your every moments with a cup of</h1>
+                  <h1 class="theme_color FW-BOLD">Jannatul Rowsonpur Tea</h1>
+                  <p class="m-4">Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <a class="btn theme_btn  rounded-pill text-white my-5 px-4 py-2 mx-auto">
+                        Read More <i class="fa-solid fa-circle-arrow-right theme_color"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
     <!-- Header End -->
 
     <!-- Main Start -->
     <main>
-        <!-- Banner -->
-        <section id="banner">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item slider_bg_color active">
-                        <img src="assets/images/Untitled-1.jpg" class="opacity d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>First slide label</h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item slider_bg_color">
-                        <img src="assets/images/Untitled-1.jpg" class="opacity d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Second slide label</h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item slider_bg_color">
-                        <img src="assets/images/Untitled-1.jpg" class="opacity d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Third slide label</h1>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-        </section>
         <!-- Service -->
         <section id="service">
             <div class="container">
@@ -309,7 +307,7 @@
             </div>
         </section>
         <!-- About Tea -->
-        <section class="py-5">
+        <section class="">
             <div id="about_tea" class="theme_bg">
                 <div class="container py-5">
                     <div class="row">

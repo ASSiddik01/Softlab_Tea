@@ -42,20 +42,62 @@ a {
     color: #88b44e;
 }
 
-#banner h1 {
+/* -----------Header CSS---------- */
+
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {
+    color: #000;
+}
+
+.site_title img {
+    height: 50px;
+}
+
+.banner_img {
+    background-image: url(/assets/images/Untitled-1.jpg);
+    background-position: center;
+}
+
+.banner_section {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.banner_section:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.banner_info {
+    padding: 150px 0px;
+    margin: 110px 0px 60px;
+}
+
+.banner_info h1 {
     font-size: 75px;
+}
+
+.banner_info p {
+    color: #fff;
 }
 /* 
 #banner{
     background-image: url("/assets/images/Untitled-1.jpg");
 } */
-
-.slider_bg_color{
-    background-color: #000;
-}
-.opacity{
-    opacity: .7;
-}
 
 .header {
     margin: 0;
@@ -67,6 +109,9 @@ a {
 .header span {
     display: block;
 }
+
+
+
 .item_1 {
     background-color: #f5f8f2;
     border-top-left-radius: 80px;
@@ -82,11 +127,8 @@ a {
 section#service {
     position: relative;
     top: -70px;
+    z-index: 99;
 }
-/* .single_about img {
-    height: 100px;
-    width: 100px;
-} */
 
 .about_img {
     height: 90px;
