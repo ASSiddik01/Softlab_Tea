@@ -302,7 +302,7 @@ abbr.required {
 }
 
 
-.single-product{
+.single-product {
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -332,6 +332,7 @@ abbr.required {
 .products-carousel.owl-carousel .owl-stage-outer {
     overflow: inherit;
 }
+
 .owl-dots div {
     height: 5px;
     width: 20px;
@@ -349,7 +350,7 @@ abbr.required {
     margin-top: 20px;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -360,5 +361,7 @@ body{
 .sticky {
     position: fixed;
     top: 0;
+    z-index: 9999;
+    background: #252c30;
     width: 100%;
-  }
+}
