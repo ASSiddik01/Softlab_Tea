@@ -8,3 +8,4 @@ const closeSearch = () => {
     document.getElementById('top-search-ico-close').style.display = "none";
 }
 
+
