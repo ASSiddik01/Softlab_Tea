@@ -269,3 +269,23 @@ section#service {
 .single_blog img {
     width: 1400px;
 }
+
+thead {
+    background-color: #252c30;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td {
+    border-right: 1px solid #ddd;
+}
+
+tbody td:nth-child(1) {
+    border-left: 1px solid #ddd;
+}

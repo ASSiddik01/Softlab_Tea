@@ -112,64 +112,76 @@
             <div class="container">
                 <div class="row">
                     <div class="breadcomb_info">
-                        <h1 class=" text-white">Blog</h1>
+                        <h1 class=" text-white">Shop</h1>
                         <h5 class="text-white"><span class="theme_color">Home <i class="fa-solid fa-angle-right"></i>
-                            </span> <span>Blog</span></h5>
+                            </span> <span>Shop</span></h5>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Blog -->
-        <section id="Blog">
+        <!-- Cart -->
+        <section id="cart">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 py-5 products">
-                        <div class="single_blog">
-                            <img class="img-fluid" src="assets/images/blog.png" alt="">
-                            <div class="blogger_info d-flex justify-content-between">
-                                <small class="theme_color my-4">Freelancer Nishad</small>
-                                <small class="text-muted my-4">March 02, 2022</small>
-                            </div>
-                            <hr>
-                            <div class="blog_info">
-                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum
-                                    dolor sit amet consectetur adipisicing elit. Maxime mollitia,Lorem ipsum dolor sit
-                                    amet consectetur adipisicing elit. Maxime mollitia,</p>
-                            </div>
-                            <div class="show_comment py-4">
-                                <h4>Comments ---</h4>
-                            </div>
-                            <div class="write_comment my-4">
-                                <h4>Add Comment ---</h4>
-                                <form action="" class="text-center">
-                                    <p class="theme_color text-center"> Your email address will not be published.
-                                        Required fields are marked *</p>
-                                    <textarea class="theme_border form-control rounded-3 p-3 mb-5 mt-2" name="" id=""
-                                        cols="30" rows="05" placeholder="Comment"></textarea>
-                                    <div class="d-flex commnet_user">
-                                        <input placeholder="Name"
-                                            class="form-control theme_border p-3 me-3 rounded-pill" type="text" name=""
-                                            id="">
-                                        <input placeholder="Email"
-                                            class="form-control theme_border p-3 me-3 rounded-pill" type="email" name=""
-                                            id="">
+                    <table class="shop_table my-5" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th class="product-remove">&nbsp;</th>
+                                <th class="product-thumbnail">&nbsp;</th>
+                                <th class="product-name">Product</th>
+                                <th class="product-price">Price</th>
+                                <th class="product-quantity">Quantity</th>
+                                <th class="product-subtotal">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="woocommerce-cart-form__cart-item cart_item" data-id="16">
+
+                                <td class="product-remove remove-from-cart">
+                                    <a href="#" class="remove" aria-label="Remove this item" data-product_id="4842"
+                                        data-product_sku="">×</a>
+                                </td>
+
+                                <td class="product-thumbnail">
+                                    <img width="70" src="assets/images/cart_product.png" alt="">
+                                </td>
+                                <td class="product-name" data-title="Product">
+                                    <a href="http://jannatultea.com/product/16">Black Tea 10 gm</a>
+                                </td>
+                                <td class="product-price" data-title="Price">
+                                    <span class="woocommerce-Price-amount amount"><span
+                                            class="woocommerce-Price-currencySymbol">$</span>10</span>
+
+                                    <input type="hidden" class="iprice" value="10">
+                                </td>
+                                <td class="product-quantity" data-title="Quantity">
+                                    <div class="quantity">
+                                        <label class="screen-reader-text" for=""></label>
+                                        <input type="number" value="1"
+                                            class="form-control mx-auto w-25 quantites update-cart">
                                     </div>
-                                    <button class="btn theme_btn rounded-pill text-white mt-5 px-4 py-2">
-                                        Submit
-                                    </button>
-                                </form>
-                            </div>
+                                </td>
+                                <td class="product-subtotal" data-title="Total">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="itotal">$10</span></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="actions">
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="col-lg-9"></div>
+                    <div class="col-lg-3">
+                        <div class="d-flex justify-content-around">
+                            <h5>Total</h5>
+                            <h5 class="theme_color">$<span>10</span></h5>
                         </div>
-                    </div>
-                    <div class="col-lg-4 silde_bar ">
-                        <aside class="m-5">
-                            <h4>Categories</h4>
-                            <hr class="theme_color">
-                            <ol>
-                                <li>Freelancer Nishad</li>
-                            </ol>
-                        </aside>
+                        <a class="btn theme_btn  rounded-pill text-white ms-4 my-5 px-4 py-2 mx-auto">
+                            Proceed to checkout <i class="fa-solid fa-circle-arrow-right theme_color"></i>
+                        </a>
                     </div>
                 </div>
             </div>
