@@ -109,7 +109,7 @@ section#service {
     background-color: #f5f8f2;
 }
 
-.card-footer {
+.product_hover {
     content: "";
     height: 100%;
     width: 100%;
@@ -118,10 +118,23 @@ section#service {
     display: none;
     border-bottom: 5px solid #88b44e;
 }
-.single_product:hover .card-footer{
+.single_product:hover .product_hover{
     display: block;
 }
 
 .product_btn{
     margin-top: 28%;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.blog img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.blog:hover .card{
+    box-shadow: none !important;
+    transition: all .8s;
 }
