@@ -2,35 +2,16 @@
     display: none;
 }
 
-/* #header_top ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#header_top ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-#header_top ul li {
-    float: right;
-    padding:0 10px
-}
-*/
-ul{
+ul {
     list-style: none;
 }
 
 #header_top {
     background-color: #88b44e;
 }
+
 .theme_bg {
     background-color: #88b44e;
-}
-
-.top_nav div {
-    padding: 0 10px;
 }
 
 a {
@@ -38,11 +19,10 @@ a {
     color: black;
 }
 
-.theme_color{
+.theme_color {
     color: #88b44e;
 }
 
-/* -----------Header CSS---------- */
 
 .navbar-brand, .nav-link {
     color: #fff;
@@ -51,13 +31,16 @@ a {
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {
     color: #000;
 }
+.top_nav div{
+    padding: 0 10px;
+}
 
 .site_title img {
     height: 50px;
 }
 
 .banner_img {
-    background-image: url(/assets/images/Untitled-1.jpg);
+    background-image: url(../images/Untitled-1.jpg);
     background-position: center;
 }
 
@@ -94,36 +77,22 @@ a {
 .banner_info p {
     color: #fff;
 }
-/* 
-#banner{
-    background-image: url("/assets/images/Untitled-1.jpg");
-} */
-
-.header {
-    margin: 0;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 25px;
-    text-align: left;
-}
-.header span {
-    display: block;
-}
-
-
 
 .item_1 {
     background-color: #f5f8f2;
     border-top-left-radius: 80px;
     border-bottom-left-radius: 80px;
 }
+
 .item_2 {
     background-color: #252c30;
 }
+
 .item_3 {
     border-top-right-radius: 80px;
     border-bottom-right-radius: 80px;
 }
+
 section#service {
     position: relative;
     top: -70px;
@@ -140,13 +109,14 @@ section#service {
     width: 56px;
 }
 
-.theme_btn{
+.theme_btn {
     background-color: #1b2b06;
 }
 
-.theme_btn:hover{
+.theme_btn:hover {
     background-color: #88b44e;
 }
+
 #our_products {
     background-color: #f5f8f2;
 }
@@ -160,23 +130,25 @@ section#service {
     display: none;
     border-bottom: 5px solid #88b44e;
 }
-.single_product:hover .product_hover{
+
+.single_product:hover .product_hover {
     display: block;
 }
 
-.product_btn{
+.product_btn {
     margin-top: 28%;
 }
 
-.card{
+.card {
     overflow: hidden;
 }
 
-.blog img:hover{
+.blog img:hover {
     transform: scale(1.1);
     transition: all 1s;
 }
-.blog:hover .card{
+
+.blog:hover .card {
     box-shadow: none !important;
     transition: all .8s;
 }
@@ -256,11 +228,9 @@ section#service {
     transition: all .5s;
 }
 
-.about_bg{
+.about_bg {
     background-image: url(http://jannatultea.com/assets/img/block-green-cups-full.png) !important;
     background-position: center;
     background-repeat: no-repeat;
     height: 650px;
 }
-
-
