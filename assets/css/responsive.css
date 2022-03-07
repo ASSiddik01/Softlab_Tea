@@ -94,6 +94,12 @@
     .silde_bar {
         order: 2;
     }
+    .commnet_user{
+        display: block !important;
+    }
+    .commnet_user input{
+        margin-bottom: 20px;
+    }
 
 }
 
