@@ -258,3 +258,11 @@ section#service {
     width: 120px;
 }
 
+.open_hours {
+    padding: 0;
+}
+
+.open_hours li {
+    margin: 10px 0px;
+}
+
