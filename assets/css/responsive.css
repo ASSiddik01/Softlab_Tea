@@ -41,6 +41,9 @@
     .breadcomb_info {
         margin-top: 165px;
     }
+    .silde_bar {
+        order: 2;
+    }
 }
 
 
@@ -87,6 +90,9 @@
 
     .breadcomb_info {
         margin-top: 145px;
+    }
+    .silde_bar {
+        order: 2;
     }
 
 }

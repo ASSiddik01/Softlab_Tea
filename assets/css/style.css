@@ -243,3 +243,15 @@ section#service {
     height: 500px;
 }
 
+.silde_bar {
+    background-color: #f5f8f2;
+}
+
+.theme_border{
+    border: 1px solid #88b44e;
+}
+
+.filter input {
+    width: 120px;
+}
+
