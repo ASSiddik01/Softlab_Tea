@@ -150,7 +150,10 @@ section#service {
 
 .blog:hover .card {
     box-shadow: none !important;
-    transition: all .8s;
+    transition: box-shadow .8s;
+}
+.blog:hover .card {
+    border-bottom: 5px solid #88b44e !important;
 }
 
 #blogs {
