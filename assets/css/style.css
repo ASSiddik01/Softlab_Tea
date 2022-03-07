@@ -121,7 +121,7 @@ section#service {
 }
 
 .theme_btn:hover i {
-    color: #1b2b06;
+    color: #1b2b06 !important;
 }
 
 .theme_btn {
@@ -396,8 +396,8 @@ nav#myHeader {
     background-color: #88b44e;
 }
 
-.banner_section .theme_btn i,.product_buy_btn i {
-    color:#1b2b06;
+.banner_section .theme_btn i, .product_buy_btn i {
+    color: #1b2b06 !important;
 }
 
 .banner_section .theme_btn:hover, .product_buy_btn:hover, .product_info_btn:hover {
@@ -405,15 +405,14 @@ nav#myHeader {
 }
 
 .banner_section .theme_btn:hover i, .product_buy_btn:hover i, .product_info_btn:hover i {
-    color:#88b44e;
+    color: #88b44e !important;
 }
 
-.about_bg .theme_btn:hover, #cta .theme_btn:hover, .product_info_btn{
+.about_bg .theme_btn:hover, #cta .theme_btn:hover, .product_info_btn {
     background-color: #fff;
     color: #1b2b06 !important;
 }
 
-.product_info_btn:hover{
+.product_info_btn:hover {
     color: #fff !important;
 }
-
