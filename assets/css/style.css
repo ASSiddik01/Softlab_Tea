@@ -31,7 +31,8 @@ a {
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {
     color: #000;
 }
-.top_nav div{
+
+.top_nav div {
     padding: 0 10px;
 }
 
@@ -152,6 +153,7 @@ section#service {
     box-shadow: none !important;
     transition: box-shadow .8s;
 }
+
 .blog:hover .card {
     border-bottom: 5px solid #88b44e !important;
 }
@@ -242,7 +244,7 @@ section#service {
     margin-top: 192px;
 }
 
-#breadcomb{
+#breadcomb {
     height: 500px;
 }
 
@@ -250,7 +252,7 @@ section#service {
     background-color: #f5f8f2;
 }
 
-.theme_border{
+.theme_border {
     border: 1px solid #88b44e;
 }
 
@@ -288,4 +290,13 @@ tbody td {
 
 tbody td:nth-child(1) {
     border-left: 1px solid #ddd;
+}
+
+textarea {
+    border-radius: 50px !important;
+}
+
+abbr.required {
+    color: red;
+    text-decoration: none;
 }

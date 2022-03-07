@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jannatul Tea</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8cffe8c664.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body id="top">
+    <!-- Header Start -->
+    <header>
+        <!-- Header Top -->
+        <section class="pt-1 position-relative" id="header_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h6 class="phone">
+                                    <i class="fa-solid fa-square-phone"></i>
+                                    <span>+8801761014845</span>
+                                </h6>
+                            </div>
+                            <div class="col-lg-8">
+                                <h6 class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Rowsonpur, Tetulia, Panchagarh</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div>
+                            <marquee behavior="" direction="">সারা বাংলাদেশে জান্নাতুল চায়ের ডিপো এবং ডিলার নিয়োগ চলছে,
+                                আগ্রহীগণ ইনবক্স কিংবা নিচে থাকা মোবাইল নাম্বারে যোগাযোগ করুন। ধন্যবাদ ।
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 top_nav">
+                        <div class="d-flex float-end align-items-center top_nav">
+                            <div>
+                                <input class="" type="text" name="" id="searchBox">
+                                <i id="top-search-ico" onclick="showSearch()" class="fa fa-search"></i>
+                                <i id="top-search-ico-close" onclick="closeSearch()"
+                                    class="top-search-ico-close fa fa-close"></i>
+                            </div>
+                            <div class="cart-navbar">
+                                <a href="" class="shop_table cart ltx-cart" title="View your shopping cart">
+                                    <i class="fa fa fa-shopping-bag" aria-hidden="true"></i>
+                                    <span class="cart-contents header-cart-count count">0</span>
+                                </a>
+                            </div>
+                            <div
+                                class="ltx-fa-icon ltx-nav-profile menu-item-has-children  hidden-sm hidden-ms hidden-xs">
+                                <a href="http://jannatultea.com/my-account"><span class="fa fa-user"
+                                        aria-hidden="true"></span>
+                                    Login
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Navbar Area -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/images/logonew.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+        <!-- Bradcomb -->
+        <section class="banner_section"
+            style="background-image: url('http://jannatultea.com/assets/img/Untitled-1.jpg') !important;background-position: 50% -42px;"
+            id="breadcomb">
+            <div class="container">
+                <div class="row">
+                    <div class="breadcomb_info">
+                        <h1 class=" text-white">Shop</h1>
+                        <h5 class="text-white"><span class="theme_color">Home <i class="fa-solid fa-angle-right"></i>
+                            </span> <span>Shop</span></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Checkout -->
+        <section id="checkout">
+            <div class="container">
+                <!-- Billing info -->
+                <div class="row py-5">
+                    <div class="col-lg-6">
+                        <h1>Billing details</h1>
+                        <div class="woocommerce-billing-fields__field-wrapper" data-select2-id="select2-data-6-sg5w">
+                            <p class="form-row form-row-wide validate-required" id="billing_first_name_field"
+                                data-priority="10"><label for="billing_first_name" class="">Name&nbsp;<abbr
+                                        class="required" title="required">*</abbr></label><span
+                                    class="woocommerce-input-wrapper">
+                                    <input type="text" class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_first_name" id="billing_first_name" placeholder=""
+                                        autocomplete="given-name"></span></p>
+
+                            <p class="form-row form-row-wide" id="billing_company_field" data-priority="30"><label
+                                    for="billing_company" class="">Company
+                                    name&nbsp;<span class="optional">(optional)</span></label><span
+                                    class="woocommerce-input-wrapper"><input type="text"
+                                        class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_company" id="billing_company" placeholder=""
+                                        autocomplete="organization"></span></p>
+                            <p class="form-row form-row-wide address-field update_totals_on_change validate-required"
+                                id="billing_country_field" data-priority="40"
+                                data-select2-id="select2-data-billing_country_field"><label for="billing_country"
+                                    class="">Country&nbsp;<abbr class="required" title="required">*</abbr></label><span
+                                    class="woocommerce-input-wrapper">
+                                    <select name="billing_country" id="billing_country"
+                                        class="country_to_state country_select select2-hidden-accessible theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        autocomplete="country" data-select2-id="select2-data-billing_country"
+                                        tabindex="-1" aria-hidden="true">
+                                        <option value="" data-select2-id="select2-data-16-ys6o">Select a country…
+                                        </option>
+                                        <option value="AX" data-select2-id="select2-data-17-9yil">Åland Islands</option>
+                                        <option value="AF" data-select2-id="select2-data-18-j2jc">Afghanistan</option>
+                                        <option value="AL" data-select2-id="select2-data-19-pzd4">Albania</option>
+                                        <option value="DZ" data-select2-id="select2-data-20-1h93">Algeria</option>
+                                        <option value="AS" data-select2-id="select2-data-21-u8wn">American Samoa
+                                        </option>
+                                        <option value="AD" data-select2-id="select2-data-22-1j38">Andorra</option>
+                                        <option value="AO" data-select2-id="select2-data-23-hz2o">Angola</option>
+                                        <option value="AI" data-select2-id="select2-data-24-bzjf">Anguilla</option>
+                                        <option value="AQ" data-select2-id="select2-data-25-ncjw">Antarctica</option>
+                                        <option value="AG" data-select2-id="select2-data-26-ub8e">Antigua and Barbuda
+                                        </option>
+                                        <option value="AR" data-select2-id="select2-data-27-uawf">Argentina</option>
+                                        <option value="AM" data-select2-id="select2-data-28-xyyd">Armenia</option>
+                                        <option value="AW" data-select2-id="select2-data-29-b59i">Aruba</option>
+                                        <option value="AU" data-select2-id="select2-data-30-atg5">Australia</option>
+                                        <option value="AT" data-select2-id="select2-data-31-o1fy">Austria</option>
+                                        <option value="AZ" data-select2-id="select2-data-32-laxj">Azerbaijan</option>
+                                        <option value="BS" data-select2-id="select2-data-33-ouqg">Bahamas</option>
+                                        <option value="BH" data-select2-id="select2-data-34-r2ri">Bahrain</option>
+                                        <option value="BD" selected="selected" data-select2-id="select2-data-2-4d9g">
+                                            Bangladesh</option>
+                                        <option value="BB" data-select2-id="select2-data-35-g8si">Barbados</option>
+                                        <option value="BY" data-select2-id="select2-data-36-1vxp">Belarus</option>
+                                        <option value="PW" data-select2-id="select2-data-37-s1qz">Belau</option>
+                                        <option value="BE" data-select2-id="select2-data-38-ii02">Belgium</option>
+                                        <option value="BZ" data-select2-id="select2-data-39-3bu5">Belize</option>
+                                        <option value="BJ" data-select2-id="select2-data-40-pyb2">Benin</option>
+                                        <option value="BM" data-select2-id="select2-data-41-5jgx">Bermuda</option>
+                                        <option value="BT" data-select2-id="select2-data-42-28zs">Bhutan</option>
+                                        <option value="BO" data-select2-id="select2-data-43-k553">Bolivia</option>
+                                        <option value="BQ" data-select2-id="select2-data-44-miwj">Bonaire, Saint
+                                            Eustatius and Saba
+                                        </option>
+                                        <option value="BA" data-select2-id="select2-data-45-qvk9">Bosnia and Herzegovina
+                                        </option>
+                                        <option value="BW" data-select2-id="select2-data-46-ecyo">Botswana</option>
+                                        <option value="BV" data-select2-id="select2-data-47-ufpa">Bouvet Island</option>
+                                        <option value="BR" data-select2-id="select2-data-48-z256">Brazil</option>
+                                        <option value="IO" data-select2-id="select2-data-49-vgr8">British Indian Ocean
+                                            Territory</option>
+                                        <option value="VG" data-select2-id="select2-data-50-ecjn">British Virgin Islands
+                                        </option>
+                                        <option value="BN" data-select2-id="select2-data-51-65ct">Brunei</option>
+                                        <option value="BG" data-select2-id="select2-data-52-051a">Bulgaria</option>
+                                        <option value="BF" data-select2-id="select2-data-53-v9cf">Burkina Faso</option>
+                                        <option value="BI" data-select2-id="select2-data-54-doxe">Burundi</option>
+                                        <option value="KH" data-select2-id="select2-data-55-ajjp">Cambodia</option>
+                                        <option value="CM" data-select2-id="select2-data-56-lida">Cameroon</option>
+                                        <option value="CA" data-select2-id="select2-data-57-zsld">Canada</option>
+                                        <option value="CV" data-select2-id="select2-data-58-xeje">Cape Verde</option>
+                                        <option value="KY" data-select2-id="select2-data-59-k1pm">Cayman Islands
+                                        </option>
+                                        <option value="CF" data-select2-id="select2-data-60-m3kl">Central African
+                                            Republic</option>
+                                        <option value="TD" data-select2-id="select2-data-61-q8uv">Chad</option>
+                                        <option value="CL" data-select2-id="select2-data-62-sfkk">Chile</option>
+                                        <option value="CN" data-select2-id="select2-data-63-vtn1">China</option>
+                                        <option value="CX" data-select2-id="select2-data-64-umi3">Christmas Island
+                                        </option>
+                                        <option value="CC" data-select2-id="select2-data-65-omyv">Cocos (Keeling)
+                                            Islands</option>
+                                        <option value="CO" data-select2-id="select2-data-66-v6cq">Colombia</option>
+                                        <option value="KM" data-select2-id="select2-data-67-x4uh">Comoros</option>
+                                        <option value="CG" data-select2-id="select2-data-68-e44e">Congo (Brazzaville)
+                                        </option>
+                                        <option value="CD" data-select2-id="select2-data-69-cjmv">Congo (Kinshasa)
+                                        </option>
+                                        <option value="CK" data-select2-id="select2-data-70-3dp0">Cook Islands</option>
+                                        <option value="CR" data-select2-id="select2-data-71-nsy0">Costa Rica</option>
+                                        <option value="HR" data-select2-id="select2-data-72-aqq7">Croatia</option>
+                                        <option value="CU" data-select2-id="select2-data-73-vcjb">Cuba</option>
+                                        <option value="CW" data-select2-id="select2-data-74-1arr">Curaçao</option>
+                                        <option value="CY" data-select2-id="select2-data-75-wydh">Cyprus</option>
+                                        <option value="CZ" data-select2-id="select2-data-76-zp4c">Czech Republic
+                                        </option>
+                                        <option value="DK" data-select2-id="select2-data-77-zhzx">Denmark</option>
+                                        <option value="DJ" data-select2-id="select2-data-78-dm5t">Djibouti</option>
+                                        <option value="DM" data-select2-id="select2-data-79-ncqr">Dominica</option>
+                                        <option value="DO" data-select2-id="select2-data-80-zaje">Dominican Republic
+                                        </option>
+                                        <option value="EC" data-select2-id="select2-data-81-hpc0">Ecuador</option>
+                                        <option value="EG" data-select2-id="select2-data-82-dyps">Egypt</option>
+                                        <option value="SV" data-select2-id="select2-data-83-1pne">El Salvador</option>
+                                        <option value="GQ" data-select2-id="select2-data-84-t7mk">Equatorial Guinea
+                                        </option>
+                                        <option value="ER" data-select2-id="select2-data-85-ncao">Eritrea</option>
+                                        <option value="EE" data-select2-id="select2-data-86-gz6i">Estonia</option>
+                                        <option value="ET" data-select2-id="select2-data-87-vto9">Ethiopia</option>
+                                        <option value="FK" data-select2-id="select2-data-88-nt07">Falkland Islands
+                                        </option>
+                                        <option value="FO" data-select2-id="select2-data-89-0odu">Faroe Islands</option>
+                                        <option value="FJ" data-select2-id="select2-data-90-7ts8">Fiji</option>
+                                        <option value="FI" data-select2-id="select2-data-91-ez8r">Finland</option>
+                                        <option value="FR" data-select2-id="select2-data-92-tni0">France</option>
+                                        <option value="GF" data-select2-id="select2-data-93-qe2v">French Guiana</option>
+                                        <option value="PF" data-select2-id="select2-data-94-wxt9">French Polynesia
+                                        </option>
+                                        <option value="TF" data-select2-id="select2-data-95-bw3u">French Southern
+                                            Territories</option>
+                                        <option value="GA" data-select2-id="select2-data-96-14wr">Gabon</option>
+                                        <option value="GM" data-select2-id="select2-data-97-z1ni">Gambia</option>
+                                        <option value="GE" data-select2-id="select2-data-98-6bqd">Georgia</option>
+                                        <option value="DE" data-select2-id="select2-data-99-s8ep">Germany</option>
+                                        <option value="GH" data-select2-id="select2-data-100-ipep">Ghana</option>
+                                        <option value="GI" data-select2-id="select2-data-101-mrbl">Gibraltar</option>
+                                        <option value="GR" data-select2-id="select2-data-102-3zuv">Greece</option>
+                                        <option value="GL" data-select2-id="select2-data-103-wiqk">Greenland</option>
+                                        <option value="GD" data-select2-id="select2-data-104-137i">Grenada</option>
+                                        <option value="GP" data-select2-id="select2-data-105-dokh">Guadeloupe</option>
+                                        <option value="GU" data-select2-id="select2-data-106-e7su">Guam</option>
+                                        <option value="GT" data-select2-id="select2-data-107-4npy">Guatemala</option>
+                                        <option value="GG" data-select2-id="select2-data-108-l4j6">Guernsey</option>
+                                        <option value="GN" data-select2-id="select2-data-109-bi4s">Guinea</option>
+                                        <option value="GW" data-select2-id="select2-data-110-bhi1">Guinea-Bissau
+                                        </option>
+                                        <option value="GY" data-select2-id="select2-data-111-250k">Guyana</option>
+                                        <option value="HT" data-select2-id="select2-data-112-h3bs">Haiti</option>
+                                        <option value="HM" data-select2-id="select2-data-113-lic7">Heard Island and
+                                            McDonald Islands
+                                        </option>
+                                        <option value="HN" data-select2-id="select2-data-114-v449">Honduras</option>
+                                        <option value="HK" data-select2-id="select2-data-115-kzoc">Hong Kong</option>
+                                        <option value="HU" data-select2-id="select2-data-116-u07e">Hungary</option>
+                                        <option value="IS" data-select2-id="select2-data-117-iyaa">Iceland</option>
+                                        <option value="IN" data-select2-id="select2-data-118-ladx">India</option>
+                                        <option value="ID" data-select2-id="select2-data-119-rkq5">Indonesia</option>
+                                        <option value="IR" data-select2-id="select2-data-120-gecv">Iran</option>
+                                        <option value="IQ" data-select2-id="select2-data-121-cmfy">Iraq</option>
+                                        <option value="IE" data-select2-id="select2-data-122-re0g">Ireland</option>
+                                        <option value="IM" data-select2-id="select2-data-123-loe9">Isle of Man</option>
+                                        <option value="IL" data-select2-id="select2-data-124-tm4k">Israel</option>
+                                        <option value="IT" data-select2-id="select2-data-125-cqtv">Italy</option>
+                                        <option value="CI" data-select2-id="select2-data-126-oiqg">Ivory Coast</option>
+                                        <option value="JM" data-select2-id="select2-data-127-khau">Jamaica</option>
+                                        <option value="JP" data-select2-id="select2-data-128-t86e">Japan</option>
+                                        <option value="JE" data-select2-id="select2-data-129-qtdn">Jersey</option>
+                                        <option value="JO" data-select2-id="select2-data-130-qjm3">Jordan</option>
+                                        <option value="KZ" data-select2-id="select2-data-131-76y8">Kazakhstan</option>
+                                        <option value="KE" data-select2-id="select2-data-132-tkjj">Kenya</option>
+                                        <option value="KI" data-select2-id="select2-data-133-gl9q">Kiribati</option>
+                                        <option value="KW" data-select2-id="select2-data-134-h88g">Kuwait</option>
+                                        <option value="KG" data-select2-id="select2-data-135-ozll">Kyrgyzstan</option>
+                                        <option value="LA" data-select2-id="select2-data-136-qotd">Laos</option>
+                                        <option value="LV" data-select2-id="select2-data-137-1qda">Latvia</option>
+                                        <option value="LB" data-select2-id="select2-data-138-noo6">Lebanon</option>
+                                        <option value="LS" data-select2-id="select2-data-139-rruv">Lesotho</option>
+                                        <option value="LR" data-select2-id="select2-data-140-0ja8">Liberia</option>
+                                        <option value="LY" data-select2-id="select2-data-141-vauh">Libya</option>
+                                        <option value="LI" data-select2-id="select2-data-142-o1si">Liechtenstein
+                                        </option>
+                                        <option value="LT" data-select2-id="select2-data-143-ox0g">Lithuania</option>
+                                        <option value="LU" data-select2-id="select2-data-144-7dfh">Luxembourg</option>
+                                        <option value="MO" data-select2-id="select2-data-145-wxgl">Macao S.A.R., China
+                                        </option>
+                                        <option value="MK" data-select2-id="select2-data-146-9rt5">Macedonia</option>
+                                        <option value="MG" data-select2-id="select2-data-147-6w2a">Madagascar</option>
+                                        <option value="MW" data-select2-id="select2-data-148-xsut">Malawi</option>
+                                        <option value="MY" data-select2-id="select2-data-149-omvt">Malaysia</option>
+                                        <option value="MV" data-select2-id="select2-data-150-9uv9">Maldives</option>
+                                        <option value="ML" data-select2-id="select2-data-151-n6wm">Mali</option>
+                                        <option value="MT" data-select2-id="select2-data-152-vv0i">Malta</option>
+                                        <option value="MH" data-select2-id="select2-data-153-15ny">Marshall Islands
+                                        </option>
+                                        <option value="MQ" data-select2-id="select2-data-154-61uw">Martinique</option>
+                                        <option value="MR" data-select2-id="select2-data-155-era1">Mauritania</option>
+                                        <option value="MU" data-select2-id="select2-data-156-0ubm">Mauritius</option>
+                                        <option value="YT" data-select2-id="select2-data-157-gwd3">Mayotte</option>
+                                        <option value="MX" data-select2-id="select2-data-158-laqd">Mexico</option>
+                                        <option value="FM" data-select2-id="select2-data-159-xxe5">Micronesia</option>
+                                        <option value="MD" data-select2-id="select2-data-160-f3we">Moldova</option>
+                                        <option value="MC" data-select2-id="select2-data-161-9kh5">Monaco</option>
+                                        <option value="MN" data-select2-id="select2-data-162-d5kd">Mongolia</option>
+                                        <option value="ME" data-select2-id="select2-data-163-jed5">Montenegro</option>
+                                        <option value="MS" data-select2-id="select2-data-164-peif">Montserrat</option>
+                                        <option value="MA" data-select2-id="select2-data-165-hof2">Morocco</option>
+                                        <option value="MZ" data-select2-id="select2-data-166-jt68">Mozambique</option>
+                                        <option value="MM" data-select2-id="select2-data-167-u9ey">Myanmar</option>
+                                        <option value="NA" data-select2-id="select2-data-168-gdgf">Namibia</option>
+                                        <option value="NR" data-select2-id="select2-data-169-yfyy">Nauru</option>
+                                        <option value="NP" data-select2-id="select2-data-170-kju3">Nepal</option>
+                                        <option value="NL" data-select2-id="select2-data-171-amyi">Netherlands</option>
+                                        <option value="NC" data-select2-id="select2-data-172-hrza">New Caledonia
+                                        </option>
+                                        <option value="NZ" data-select2-id="select2-data-173-8ac4">New Zealand</option>
+                                        <option value="NI" data-select2-id="select2-data-174-pvv0">Nicaragua</option>
+                                        <option value="NE" data-select2-id="select2-data-175-2em6">Niger</option>
+                                        <option value="NG" data-select2-id="select2-data-176-ki6e">Nigeria</option>
+                                        <option value="NU" data-select2-id="select2-data-177-j2k5">Niue</option>
+                                        <option value="NF" data-select2-id="select2-data-178-v376">Norfolk Island
+                                        </option>
+                                        <option value="KP" data-select2-id="select2-data-179-53jo">North Korea</option>
+                                        <option value="MP" data-select2-id="select2-data-180-89kq">Northern Mariana
+                                            Islands</option>
+                                        <option value="NO" data-select2-id="select2-data-181-t81p">Norway</option>
+                                        <option value="OM" data-select2-id="select2-data-182-m2xm">Oman</option>
+                                        <option value="PK" data-select2-id="select2-data-183-3e11">Pakistan</option>
+                                        <option value="PS" data-select2-id="select2-data-184-wyq9">Palestinian Territory
+                                        </option>
+                                        <option value="PA" data-select2-id="select2-data-185-2e80">Panama</option>
+                                        <option value="PG" data-select2-id="select2-data-186-wgll">Papua New Guinea
+                                        </option>
+                                        <option value="PY" data-select2-id="select2-data-187-zlt1">Paraguay</option>
+                                        <option value="PE" data-select2-id="select2-data-188-pzr0">Peru</option>
+                                        <option value="PH" data-select2-id="select2-data-189-ir22">Philippines</option>
+                                        <option value="PN" data-select2-id="select2-data-190-8tpk">Pitcairn</option>
+                                        <option value="PL" data-select2-id="select2-data-191-655s">Poland</option>
+                                        <option value="PT" data-select2-id="select2-data-192-i1rn">Portugal</option>
+                                        <option value="PR" data-select2-id="select2-data-193-956s">Puerto Rico</option>
+                                        <option value="QA" data-select2-id="select2-data-194-i6jc">Qatar</option>
+                                        <option value="RE" data-select2-id="select2-data-195-b0rz">Reunion</option>
+                                        <option value="RO" data-select2-id="select2-data-196-mwfb">Romania</option>
+                                        <option value="RU" data-select2-id="select2-data-197-pgnq">Russia</option>
+                                        <option value="RW" data-select2-id="select2-data-198-v7nr">Rwanda</option>
+                                        <option value="ST" data-select2-id="select2-data-199-0u19">São Tomé and Príncipe
+                                        </option>
+                                        <option value="BL" data-select2-id="select2-data-200-h516">Saint Barthélemy
+                                        </option>
+                                        <option value="SH" data-select2-id="select2-data-201-nxcm">Saint Helena</option>
+                                        <option value="KN" data-select2-id="select2-data-202-i1lm">Saint Kitts and Nevis
+                                        </option>
+                                        <option value="LC" data-select2-id="select2-data-203-jqv6">Saint Lucia</option>
+                                        <option value="SX" data-select2-id="select2-data-204-youz">Saint Martin (Dutch
+                                            part)</option>
+                                        <option value="MF" data-select2-id="select2-data-205-k9lt">Saint Martin (French
+                                            part)</option>
+                                        <option value="PM" data-select2-id="select2-data-206-x15x">Saint Pierre and
+                                            Miquelon</option>
+                                        <option value="VC" data-select2-id="select2-data-207-zc72">Saint Vincent and the
+                                            Grenadines</option>
+                                        <option value="WS" data-select2-id="select2-data-208-41pp">Samoa</option>
+                                        <option value="SM" data-select2-id="select2-data-209-4z7k">San Marino</option>
+                                        <option value="SA" data-select2-id="select2-data-210-vsnf">Saudi Arabia</option>
+                                        <option value="SN" data-select2-id="select2-data-211-zq06">Senegal</option>
+                                        <option value="RS" data-select2-id="select2-data-212-ygfi">Serbia</option>
+                                        <option value="SC" data-select2-id="select2-data-213-40mh">Seychelles</option>
+                                        <option value="SL" data-select2-id="select2-data-214-il7s">Sierra Leone</option>
+                                        <option value="SG" data-select2-id="select2-data-215-1c1t">Singapore</option>
+                                        <option value="SK" data-select2-id="select2-data-216-t8g7">Slovakia</option>
+                                        <option value="SI" data-select2-id="select2-data-217-o1fk">Slovenia</option>
+                                        <option value="SB" data-select2-id="select2-data-218-fjzd">Solomon Islands
+                                        </option>
+                                        <option value="SO" data-select2-id="select2-data-219-meta">Somalia</option>
+                                        <option value="ZA" data-select2-id="select2-data-220-9usv">South Africa</option>
+                                        <option value="GS" data-select2-id="select2-data-221-x4cl">South
+                                            Georgia/Sandwich Islands</option>
+                                        <option value="KR" data-select2-id="select2-data-222-th7f">South Korea</option>
+                                        <option value="SS" data-select2-id="select2-data-223-zju1">South Sudan</option>
+                                        <option value="ES" data-select2-id="select2-data-224-i0ye">Spain</option>
+                                        <option value="LK" data-select2-id="select2-data-225-cnwl">Sri Lanka</option>
+                                        <option value="SD" data-select2-id="select2-data-226-f8kk">Sudan</option>
+                                        <option value="SR" data-select2-id="select2-data-227-146w">Suriname</option>
+                                        <option value="SJ" data-select2-id="select2-data-228-a5my">Svalbard and Jan
+                                            Mayen</option>
+                                        <option value="SZ" data-select2-id="select2-data-229-fe3f">Swaziland</option>
+                                        <option value="SE" data-select2-id="select2-data-230-s4n4">Sweden</option>
+                                        <option value="CH" data-select2-id="select2-data-231-xqso">Switzerland</option>
+                                        <option value="SY" data-select2-id="select2-data-232-vgsl">Syria</option>
+                                        <option value="TW" data-select2-id="select2-data-233-5b4u">Taiwan</option>
+                                        <option value="TJ" data-select2-id="select2-data-234-eieh">Tajikistan</option>
+                                        <option value="TZ" data-select2-id="select2-data-235-4293">Tanzania</option>
+                                        <option value="TH" data-select2-id="select2-data-236-hu0e">Thailand</option>
+                                        <option value="TL" data-select2-id="select2-data-237-naey">Timor-Leste</option>
+                                        <option value="TG" data-select2-id="select2-data-238-srye">Togo</option>
+                                        <option value="TK" data-select2-id="select2-data-239-atfi">Tokelau</option>
+                                        <option value="TO" data-select2-id="select2-data-240-5ejb">Tonga</option>
+                                        <option value="TT" data-select2-id="select2-data-241-5up4">Trinidad and Tobago
+                                        </option>
+                                        <option value="TN" data-select2-id="select2-data-242-9d8u">Tunisia</option>
+                                        <option value="TR" data-select2-id="select2-data-243-aci2">Turkey</option>
+                                        <option value="TM" data-select2-id="select2-data-244-81ct">Turkmenistan</option>
+                                        <option value="TC" data-select2-id="select2-data-245-cx7l">Turks and Caicos
+                                            Islands</option>
+                                        <option value="TV" data-select2-id="select2-data-246-gu62">Tuvalu</option>
+                                        <option value="UG" data-select2-id="select2-data-247-7jaa">Uganda</option>
+                                        <option value="UA" data-select2-id="select2-data-248-am4o">Ukraine</option>
+                                        <option value="AE" data-select2-id="select2-data-249-ev42">United Arab Emirates
+                                        </option>
+                                        <option value="GB" data-select2-id="select2-data-250-48kj">United Kingdom (UK)
+                                        </option>
+                                        <option value="US" data-select2-id="select2-data-251-b01c">United States (US)
+                                        </option>
+                                        <option value="UM" data-select2-id="select2-data-252-b451">United States (US)
+                                            Minor Outlying Islands
+                                        </option>
+                                        <option value="VI" data-select2-id="select2-data-253-bkcx">United States (US)
+                                            Virgin Islands
+                                        </option>
+                                        <option value="UY" data-select2-id="select2-data-254-br97">Uruguay</option>
+                                        <option value="UZ" data-select2-id="select2-data-255-gbth">Uzbekistan</option>
+                                        <option value="VU" data-select2-id="select2-data-256-qor6">Vanuatu</option>
+                                        <option value="VA" data-select2-id="select2-data-257-4yel">Vatican</option>
+                                        <option value="VE" data-select2-id="select2-data-258-gkui">Venezuela</option>
+                                        <option value="VN" data-select2-id="select2-data-259-ix4t">Vietnam</option>
+                                        <option value="WF" data-select2-id="select2-data-260-lkre">Wallis and Futuna
+                                        </option>
+                                        <option value="EH" data-select2-id="select2-data-261-5iil">Western Sahara
+                                        </option>
+                                        <option value="YE" data-select2-id="select2-data-262-js7d">Yemen</option>
+                                        <option value="ZM" data-select2-id="select2-data-263-lp9x">Zambia</option>
+                                        <option value="ZW" data-select2-id="select2-data-264-438b">Zimbabwe</option>
+                                    </select>
+                                    <span
+                                        class="select2 select2-container select2-container--default select2-container--below"
+                                        dir="ltr" data-select2-id="select2-data-1-ufi4" style="width: 1px;"><span
+                                            class="selection"><span class="select2-selection select2-selection--single"
+                                                role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0"
+                                                aria-disabled="false"
+                                                aria-labelledby="select2-billing_country-container"
+                                                aria-controls="select2-billing_country-container"><span
+                                                    class="select2-selection__rendered"
+                                                    id="select2-billing_country-container" role="textbox"
+                                                    aria-readonly="true" title="Bangladesh"></span><span
+                                                    class="select2-selection__arrow" role="presentation"><b
+                                                        role="presentation"></b></span></span></span><span
+                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                </span></p>
+                            <p class="form-row form-row-wide address-field validate-required"
+                                id="billing_address_1_field" data-priority="50"><label for="billing_address_1"
+                                    class="">Street address&nbsp;<abbr class="required"
+                                        title="required">*</abbr></label><span class="woocommerce-input-wrapper"><input
+                                        type="text" class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_address_1" id="billing_address_1"
+                                        placeholder="House number and street name" autocomplete="address-line1"
+                                        data-placeholder="House number and street name"></span></p>
+                            <p class="form-row form-row-wide address-field" id="billing_address_2_field"
+                                data-priority="60"><label for="billing_address_2" class="screen-reader-text">Apartment,
+                                    suite, unit etc.&nbsp;<span class="optional">(optional)</span></label><span
+                                    class="woocommerce-input-wrapper"><input type="text"
+                                        class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_address_2" id="billing_address_2"
+                                        placeholder="Apartment, suite, unit etc. (optional)" value=""
+                                        autocomplete="address-line2"
+                                        data-placeholder="Apartment, suite, unit etc. (optional)"></span>
+                            </p>
+                            <p class="form-row form-row-wide address-field validate-required" id="billing_city_field"
+                                data-priority="70"
+                                data-o_class="form-row form-row-wide address-field validate-required">
+                                <label for="billing_city" class="">Town / City&nbsp;<abbr class="required"
+                                        title="required">*</abbr></label><span class="woocommerce-input-wrapper"><input
+                                        type="text" class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_city" id="billing_city" placeholder=""
+                                        autocomplete="address-level2"></span>
+                            </p>
+                            <p class="form-row form-row-wide address-field validate-required validate-state"
+                                id="billing_state_field" data-priority="80"
+                                data-o_class="form-row form-row-wide address-field validate-required validate-state">
+                                <label for="billing_state" class="">District&nbsp;<abbr class="required"
+                                        title="required">*</abbr></label><span class="woocommerce-input-wrapper">
+
+                                    <select name="billing_state" id="billing_state"
+                                        class="state_select select2-hidden-accessible theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        autocomplete="address-level1" data-placeholder="" tabindex="-1"
+                                        aria-hidden="true" data-select2-id="select2-data-billing_state">
+                                        <option value="" data-select2-id="select2-data-4-wrhv">Select an option…
+                                        </option>
+                                        <option value="BD-05">Bagerhat</option>
+                                        <option value="BD-01">Bandarban</option>
+                                        <option value="BD-02">Barguna</option>
+                                        <option value="BD-06">Barishal</option>
+                                        <option value="BD-07">Bhola</option>
+                                        <option value="BD-03">Bogura</option>
+                                        <option value="BD-04">Brahmanbaria</option>
+                                        <option value="BD-09">Chandpur</option>
+                                        <option value="BD-10">Chattogram</option>
+                                        <option value="BD-12">Chuadanga</option>
+                                        <option value="BD-11">Cox's Bazar</option>
+                                        <option value="BD-08">Cumilla</option>
+                                        <option value="BD-13">Dhaka</option>
+                                        <option value="BD-14">Dinajpur</option>
+                                        <option value="BD-15">Faridpur </option>
+                                        <option value="BD-16">Feni</option>
+                                        <option value="BD-19">Gaibandha</option>
+                                        <option value="BD-18">Gazipur</option>
+                                        <option value="BD-17">Gopalganj</option>
+                                        <option value="BD-20">Habiganj</option>
+                                        <option value="BD-21">Jamalpur</option>
+                                        <option value="BD-22">Jashore</option>
+                                        <option value="BD-25">Jhalokati</option>
+                                        <option value="BD-23">Jhenaidah</option>
+                                        <option value="BD-24">Joypurhat</option>
+                                        <option value="BD-29">Khagrachhari</option>
+                                        <option value="BD-27">Khulna</option>
+                                        <option value="BD-26">Kishoreganj</option>
+                                        <option value="BD-28">Kurigram</option>
+                                        <option value="BD-30">Kushtia</option>
+                                        <option value="BD-31">Lakshmipur</option>
+                                        <option value="BD-32">Lalmonirhat</option>
+                                        <option value="BD-36">Madaripur</option>
+                                        <option value="BD-37">Magura</option>
+                                        <option value="BD-33">Manikganj </option>
+                                        <option value="BD-39">Meherpur</option>
+                                        <option value="BD-38">Moulvibazar</option>
+                                        <option value="BD-35">Munshiganj</option>
+                                        <option value="BD-34">Mymensingh</option>
+                                        <option value="BD-48">Naogaon</option>
+                                        <option value="BD-43">Narail</option>
+                                        <option value="BD-40">Narayanganj</option>
+                                        <option value="BD-42">Narsingdi</option>
+                                        <option value="BD-44">Natore</option>
+                                        <option value="BD-45">Nawabganj</option>
+                                        <option value="BD-41">Netrakona</option>
+                                        <option value="BD-46">Nilphamari</option>
+                                        <option value="BD-47">Noakhali</option>
+                                        <option value="BD-49">Pabna</option>
+                                        <option value="BD-52">Panchagarh</option>
+                                        <option value="BD-51">Patuakhali</option>
+                                        <option value="BD-50">Pirojpur</option>
+                                        <option value="BD-53">Rajbari</option>
+                                        <option value="BD-54">Rajshahi</option>
+                                        <option value="BD-56">Rangamati</option>
+                                        <option value="BD-55">Rangpur</option>
+                                        <option value="BD-58">Satkhira</option>
+                                        <option value="BD-62">Shariatpur</option>
+                                        <option value="BD-57">Sherpur</option>
+                                        <option value="BD-59">Sirajganj</option>
+                                        <option value="BD-61">Sunamganj</option>
+                                        <option value="BD-60">Sylhet</option>
+                                        <option value="BD-63">Tangail</option>
+                                        <option value="BD-64">Thakurgaon</option>
+                                    </select><span class="select2 select2-container select2-container--default"
+                                        dir="ltr" data-select2-id="select2-data-3-qgsb" style="width: 1px;"><span
+                                            class="selection"><span class="select2-selection select2-selection--single"
+                                                role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1"
+                                                aria-disabled="false" aria-labelledby="select2-billing_state-container"
+                                                aria-controls="select2-billing_state-container"><span
+                                                    class="select2-selection__rendered"
+                                                    id="select2-billing_state-container" role="textbox"
+                                                    aria-readonly="true" title=""><span
+                                                        class="select2-selection__placeholder"></span></span><span
+                                                    class="select2-selection__arrow" role="presentation"><b
+                                                        role="presentation"></b></span></span></span><span
+                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+
+
+
+                                </span>
+                            </p>
+                            <p class="form-row form-row-wide address-field validate-postcode"
+                                id="billing_postcode_field" data-priority="90"
+                                data-o_class="form-row form-row-wide address-field validate-postcode">
+                                <label for="billing_postcode" class="">Postcode / ZIP&nbsp;<span
+                                        class="optional"></span></label><span class="woocommerce-input-wrapper"><input
+                                        type="text" class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_postcode" id="billing_postcode" placeholder=""
+                                        autocomplete="postal-code"></span>
+                            </p>
+                            <p class="form-row form-row-wide validate-required validate-phone" id="billing_phone_field"
+                                data-priority="100"><label for="billing_phone" class="">Phone&nbsp;<abbr
+                                        class="required" title="required">*</abbr></label><span
+                                    class="woocommerce-input-wrapper"><input type="tel"
+                                        class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_phone" id="billing_phone" placeholder="" autocomplete="tel"
+                                        maxlength="11" minlength="11"></span></p>
+                            <p class="form-row form-row-wide validate-required validate-email" id="billing_email_field"
+                                data-priority="110"><label for="billing_email" class="">Email address&nbsp;<abbr
+                                        class="required" title="required">*</abbr></label><span
+                                    class="woocommerce-input-wrapper"><input type="email"
+                                        class="theme_border form-control rounded-pill p-3 mb-2 mt-2"
+                                        name="billing_email" id="billing_email" placeholder=""
+                                        autocomplete="email username"></span></p>
+                            <p class="text-center">
+                                <label class="checkbox">
+                                    <input class="" id="createaccount" type="checkbox" name="createaccount"
+                                        onclick="checkonOrNOt()" value="1"> <span>Create an account?</span>
+                                </label>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>Additional information</h1>
+                        <p class="form-row form-row-wide validate-required validate-email" id="billing_email_field"
+                            data-priority="110">
+                            <label for="billing_email" class="">Order notes (optional)
+                            </label>
+                            <span class="woocommerce-input-wrapper">
+                                <textarea class="theme_border form-control p-3 mb-5 mt-2" name="" id="" cols="30"
+                                    rows="05"></textarea>
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+                <!-- Cart -->
+                <div class="row">
+                    <h2>Your order</h2>
+                    <table class="mb-5">
+                        <thead>
+                            <tr>
+                                <th class="product-name text-start ps-3">Product</th>
+                                <th class="product-total">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody class="">
+                            <tr class="cart_item">
+                                <td class="product-name text-start ps-3 py-4">
+                                    Black Tea 10 gm &nbsp; <strong class="product-quantity">× 1</strong>
+                                </td>
+                                <td class="product-total">
+                                    <span class="woocommerce-Price-amount amount"><span
+                                            class="woocommerce-Price-currencySymbol">$</span>10</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="col-lg-9">
+                        <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method"
+                            value="Cash on delivery" checked="checked" data-order_button_text="">
+                        <label for="payment_method_bacs"> Cash on delivery </label>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex justify-content-around">
+                            <h5>Total</h5>
+                            <h5 class="theme_color">$<span>10</span></h5>
+                        </div>
+                        <a class="btn theme_btn  rounded-pill text-white ms-4 my-5 px-4 py-2 mx-auto">
+                            Proceed to checkout <i class="fa-solid fa-circle-arrow-right theme_color"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Main End -->
+    <!-- Footer Start -->
+    <footer>
+        <!-- Footer Top -->
+        <div class="footer_top">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-6">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/logonew.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 ms-auto">
+                        <div class="social_icon d-flex align-items-center">
+                            <h5 class="m-0 text-white">Follow us --</h5>
+                            <ul>
+                                <li><a href="#" target="_self"><span class="fa fa-twitter"></span></a></li>
+                                <li><a href="#" target="_self"><span class="fa fa-facebook-f"></span></a></li>
+                                <li><a href="#" target="_self"><span class="fa fa-instagram"></span></a></li>
+                                <li><a href="#" target="_self"><span class="fa fa-google-plus"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-white">
+                <div class="row pt-3 pb-5">
+                    <div class="col-lg-4 mt-2">
+                        <h1 class="theme_color">Contract Us</h1>
+                        <small class="text-white"><span class="theme_color">Addres:</span> Rowsonpur, Tetulia,
+                            Panchagarh</small>
+                        <div class="contact_info mt-5">
+                            <p><i class="fa-solid fa-phone theme_color "></i>+8801761014845</p>
+                            <p><i class="fa-solid fa-envelope theme_color"></i>info@jannatultea.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-2">
+                        <h1 class="theme_color">Site Menu</h1>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><i class="fa-solid fa-angle-right"></i> <a href="">Home</a> </li>
+                                <li><i class="fa-solid fa-angle-right"></i> <a href="">About Us</a> </li>
+                                <li><i class="fa-solid fa-angle-right"></i> <a href="">Our Products</a> </li>
+                                <li><i class="fa-solid fa-angle-right"></i> <a href="">Blog</a> </li>
+                                <li><i class="fa-solid fa-angle-right"></i> <a href="">Contract</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-2">
+                        <h1 class="theme_color">About Us</h1>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A inventore
+                            quia, nulla doloremque fugit ex accusamus quos maiores. Voluptatibus exercitationem, neque
+                            corporis adipisci deserunt tempora deleniti? Pariatur molestiae possimus laboriosam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-12 d-flex justify-content-between align-items-center">
+                        <p class="theme_color m-0 d-inline">2023 &copy; All Rights Reserved </p>
+                        <a href="#top"><i
+                                class="top_btn fa-solid fa-angle-up p-3 rounded-circle theme_bg text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
