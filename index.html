@@ -14,7 +14,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
     <script src="assets/js/jquery-1.12.4.min.js"></script>
 
@@ -26,7 +26,7 @@
         <!-- Header Top -->
         <section class="pt-1 position-relative" id="header_top">
             <div class="container">
-                <div class="row">
+                <div class="row text-white">
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="col-lg-4">
@@ -48,23 +48,23 @@
                             </marquee>
                         </div>
                     </div>
-                    <div class="col-lg-6 top_nav">
+                    <div class="col-lg-6 top_nav pt-2">
                         <div class="d-flex float-end align-items-center top_nav">
                             <div>
-                                <input class="" type="text" name="" id="searchBox">
+                                <input class="theme_border rounded-pill p-2" type="text" name="" id="searchBox">
                                 <i id="top-search-ico" onclick="showSearch()" class="fa fa-search"></i>
                                 <i id="top-search-ico-close" onclick="closeSearch()"
                                     class="top-search-ico-close fa fa-close"></i>
                             </div>
-                            <div class="cart-navbar">
-                                <a href="" class="shop_table cart ltx-cart" title="View your shopping cart">
+                            <div class="cart-navbar ">
+                                <a href="" class="text-white" title="View your shopping cart">
                                     <i class="fa fa fa-shopping-bag" aria-hidden="true"></i>
-                                    <span class="cart-contents header-cart-count count">0</span>
+                                    <span class="cart_count">0</span>
                                 </a>
                             </div>
                             <div
-                                class="ltx-fa-icon ltx-nav-profile menu-item-has-children  hidden-sm hidden-ms hidden-xs">
-                                <a href="http://jannatultea.com/my-account"><span class="fa fa-user"
+                                class="">
+                                <a class="text-white" href="http://jannatultea.com/my-account"><span class="fa fa-user"
                                         aria-hidden="true"></span>
                                     Login
                                 </a>
@@ -77,31 +77,33 @@
         <!-- Navbar Area -->
         <nav id="myHeader" class="navbar navbar-expand-lg mainmenu">
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="assets/images/logonew.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Our Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacts</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#"><img src="assets/images/logonew.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item fs-5">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item fs-5">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item fs-5">
+                            <a class="nav-link theme_color" aria-current="page" href="#">Our Products</a>
+                        </li>
+                        <li class="nav-item fs-5">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item fs-5">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <!-- Header End -->
 
@@ -279,38 +281,28 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="products-carousel owl-carousel">
-                            <div class="single-product">
-                                <img src="assets/images/carousel_product.png" alt="">
-                                <div class="product-wrapper position-relative">
-                                    <h3 >Product Title</h3>
-                                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 catagory">
+                    <div class="col">
+                        <div class="border-0 h-100">
+                            <img src="assets/images/carousel_product.png" class="card-img-top" alt="...">
+                            <div class="product-wrapper position-relative">
+                                <h3>Product Title</h3>
                             </div>
-                            <div class="single-product">
-                                <img src="assets/images/carousel_product.png" alt="">
-                                <div class="product-wrapper position-relative">
-                                    <h3 >Product Title</h3>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="border-0 h-100">
+                            <img src="assets/images/carousel_product.png" class="card-img-top" alt="...">
+                            <div class="product-wrapper position-relative">
+                                <h3>Product Title</h3>
                             </div>
-                            <div class="single-product">
-                                <img src="assets/images/carousel_product.png" alt="">
-                                <div class="product-wrapper position-relative">
-                                    <h3 >Product Title</h3>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <img src="assets/images/carousel_product.png" alt="">
-                                <div class="product-wrapper position-relative">
-                                    <h3 >Product Title</h3>
-                                </div>
-                            </div>
-                            <div class="single-product">
-                                <img src="assets/images/carousel_product.png" alt="">
-                                <div class="product-wrapper position-relative">
-                                    <h3 >Product Title</h3>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="border-0 h-100">
+                            <img src="assets/images/carousel_product.png" class="card-img-top" alt="...">
+                            <div class="product-wrapper position-relative">
+                                <h3>Product Title</h3>
                             </div>
                         </div>
                     </div>
@@ -391,12 +383,12 @@
                             <div class="product_hover position-absolute">
                                 <div class="product_btn">
                                     <div class="">
-                                        <a class="btn theme_btn  rounded-pill text-white my-3 px-4 py-2 mx-auto">
+                                        <a class="btn theme_btn product_info_btn rounded-pill text-white my-3 px-4 py-2 mx-auto">
                                             More Info <i class="fa-solid fa-circle-arrow-right theme_color"></i>
                                         </a>
                                     </div>
                                     <div class="">
-                                        <a class="btn theme_btn  rounded-pill text-white my-3 px-4 py-2 mx-auto">
+                                        <a class="btn theme_btn product_buy_btn rounded-pill text-white my-3 px-4 py-2 mx-auto">
                                             Buy Now <i class="fa-solid fa-circle-arrow-right theme_color"></i>
                                         </a>
                                     </div>
@@ -422,12 +414,12 @@
                             <div class="product_hover position-absolute">
                                 <div class="product_btn">
                                     <div class="">
-                                        <a class="btn theme_btn  rounded-pill text-white my-3 px-4 py-2 mx-auto">
+                                        <a class="btn theme_btn product_info_btn rounded-pill text-white my-3 px-4 py-2 mx-auto">
                                             More Info <i class="fa-solid fa-circle-arrow-right theme_color"></i>
                                         </a>
                                     </div>
                                     <div class="">
-                                        <a class="btn theme_btn  rounded-pill text-white my-3 px-4 py-2 mx-auto">
+                                        <a class="btn theme_btn product_buy_btn rounded-pill text-white my-3 px-4 py-2 mx-auto">
                                             Buy Now <i class="fa-solid fa-circle-arrow-right theme_color"></i>
                                         </a>
                                     </div>
@@ -453,12 +445,12 @@
                             <div class="product_hover position-absolute">
                                 <div class="product_btn">
                                     <div class="">
-                                        <a class="btn theme_btn  rounded-pill text-white my-3 px-4 py-2 mx-auto">
+                                        <a class="btn theme_btn product_info_btn rounded-pill text-white my-3 px-4 py-2 mx-auto">
                                             More Info <i class="fa-solid fa-circle-arrow-right theme_color"></i>
                                         </a>
                                     </div>
                                     <div class="">
-                                        <a class="btn theme_btn  rounded-pill text-white my-3 px-4 py-2 mx-auto">
+                                        <a class="btn theme_btn product_buy_btn rounded-pill text-white my-3 px-4 py-2 mx-auto">
                                             Buy Now <i class="fa-solid fa-circle-arrow-right theme_color"></i>
                                         </a>
                                     </div>
@@ -620,7 +612,8 @@
                             Panchagarh</small>
                         <div class="contact_info mt-5">
                             <p><i class="fa-solid fa-phone theme_color "></i><span class="">+8801761014845</span></p>
-                            <p><i class="fa-solid fa-envelope theme_color"></i><span class="">info@jannatultea.com</span></p>
+                            <p><i class="fa-solid fa-envelope theme_color"></i><span
+                                    class="">info@jannatultea.com</span></p>
                         </div>
                     </div>
                     <div class="col-lg-4 mt-2">
@@ -664,7 +657,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/app.js"></script>
 </body>

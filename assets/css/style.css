@@ -10,6 +10,16 @@ ul {
     background-color: #88b44e;
 }
 
+.cart_count {
+    background-color: #1b2b06;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 15px;
+    position: relative;
+    top: 5px;
+    left: -7px;
+}
+
 .theme_bg {
     background-color: #88b44e;
 }
@@ -19,8 +29,8 @@ a {
     color: black;
 }
 
-.theme_color {
-    color: #88b44e;
+.theme_color, .nav-item:hover a {
+    color: #88b44e !important;
 }
 
 
@@ -110,6 +120,10 @@ section#service {
     width: 56px;
 }
 
+.theme_btn:hover i {
+    color: #1b2b06;
+}
+
 .theme_btn {
     background-color: #1b2b06;
 }
@@ -126,8 +140,7 @@ section#service {
     content: "";
     height: 100%;
     width: 100%;
-    background-color: #fff;
-    opacity: .6;
+    background-color: #ffffff54;
     display: none;
     border-bottom: 5px solid #88b44e;
 }
@@ -313,9 +326,13 @@ abbr.required {
 }
 
 .product-wrapper {
-    background-color: #fff;
+    background-color: #f5f8f2;
     margin: 0px 20px;
     top: -50px;
+}
+
+.catagory .col {
+    background-color: #f5f8f2 !important;
 }
 
 .product-wrapper h3 {
@@ -325,8 +342,9 @@ abbr.required {
 }
 
 
-.product-wrapper:hover .product-wrapper h3 {
+.product-wrapper:hover h3 {
     color: #88b44e;
+    transition: color .5s;
 }
 
 .products-carousel.owl-carousel .owl-stage-outer {
@@ -358,10 +376,44 @@ body {
     background-color: #000000bf;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    z-index: 9999;
-    background: #252c30;
+nav#myHeader {
+    position: absolute;
+    top: 61px;
     width: 100%;
+    background: #00000080;
+    z-index: 999;
 }
+
+.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+    background: #252c30 !important;
+    width: 100% !important;
+}
+
+.banner_section .theme_btn, .product_buy_btn {
+    background-color: #88b44e;
+}
+
+.banner_section .theme_btn i,.product_buy_btn i {
+    color:#1b2b06;
+}
+
+.banner_section .theme_btn:hover, .product_buy_btn:hover, .product_info_btn:hover {
+    background-color: #1b2b06;
+}
+
+.banner_section .theme_btn:hover i, .product_buy_btn:hover i, .product_info_btn:hover i {
+    color:#88b44e;
+}
+
+.about_bg .theme_btn:hover, #cta .theme_btn:hover, .product_info_btn{
+    background-color: #fff;
+    color: #1b2b06 !important;
+}
+
+.product_info_btn:hover{
+    color: #fff !important;
+}
+
