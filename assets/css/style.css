@@ -167,3 +167,49 @@ section#service {
 .footer_top {
     background-color: #252c30;
 }
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_menu ul li {
+    color: #88b44e;
+    margin-top: 10px;
+}
+
+.footer_menu ul li a {
+    color: #fff;
+}
+
+.footer_menu ul li i {
+    margin-right: 10px;
+}
+
+.footer_menu ul li a:hover, .contact_info p:hover {
+    color: #88b44e;
+    transition: all .5s;
+}
+
+.contact_info p {
+    color: #fff;
+}
+
+.contact_info i {
+    margin-right: 10px;
+}
+
+.footer_bottom {
+    background-color: #1c2124;
+}
+
+.footer_bottom p:hover {
+    color: #fff;
+    transition: all .5s;
+}
+
+.footer_bottom a:hover i {
+    color: #000 !important;
+    background-color: #fff;
+    transition: all .5s;
+}
