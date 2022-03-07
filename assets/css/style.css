@@ -142,3 +142,28 @@ section#service {
 #blogs {
     background-color: #f5f8f2;
 }
+
+.social_icon ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.social_icon ul li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #88b44e;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social_icon ul li span {
+    color: #fff;
+    margin-top: 36%;
+}
+
+.footer_top {
+    background-color: #252c30;
+}
