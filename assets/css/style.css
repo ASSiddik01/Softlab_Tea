@@ -416,3 +416,7 @@ nav#myHeader {
 .product_info_btn:hover {
     color: #fff !important;
 }
+
+.description_info,.description a {
+    background-color: #f5f8f2;
+}
