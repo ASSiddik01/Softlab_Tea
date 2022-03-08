@@ -420,3 +420,21 @@ nav#myHeader {
 .description_info,.description a {
     background-color: #f5f8f2;
 }
+
+.account_menu li {
+    margin-bottom: 10px;
+}
+
+.account_menu li i {
+    color: #88b44e;
+    margin-right: 10px;
+}
+
+.account_menu li:hover a {
+    color: #88b44e;
+    transition: color .5s;
+}
+
+.account_menu{
+    border-top: 5px solid #88b44e;
+}
